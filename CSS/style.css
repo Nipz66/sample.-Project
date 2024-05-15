@@ -1,0 +1,94 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Jersey+25+Charted&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Jersey+25+Charted&family=Poetsen+One&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+body {
+    background-color: black;
+     /* background-image: url(/2024-05-15/Image/image.jpg);  
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    filter: blur(background-image: url(/2024-05-15/Image/image.jpg));
+
+}
+
+h1 {
+    background-color: rgb(228, 231, 51);
+    text-align: center;
+    font-family: "Poetsen One", sans-serif;
+}
+
+p {
+    background-color: rgb(233, 226, 240);
+    font-family: "Briem Hand", cursive;
+} */
+
+
+#sampleID {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    margin: 50px 400px 20px 400px;
+    padding: 50px;
+    border: 20px solid red;
+
+    border-radius: 10px;
+    border-color: aqua;
+    border-right: yellow;
+    position: static;
+
+}
+
+.sample_class {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
+
+#pageID {
+    background-color: rgb(233, 226, 240);
+    font-family: "Briem Hand", cursive;
+}
+
+#marginID {
+    background-color: rgb(65, 162, 241);
+    font-family: "Briem Hand", cursive;
+    margin: initial;
+    padding: 20px;
+}
+
+.box01 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    top: 10px;
+}
+
+.box02 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: 10px;
+}
+
+
+.box03 {
+
+    width: 50px;
+    height: 50px;
+    background-color: rgb(129, 15, 182);
+    position: fixed;
+    top: 20%;
+    left: 95%;
+}
+
+.image1 {
+    position: sticky;
+    top: 0px;
+    z-index: -1;
+}
